@@ -1,0 +1,19 @@
+# sem loop condicionais
+
+print('notas da escola ')
+print('insira as notas')
+
+nome = input('Digite o nome do aluno')
+
+nota_matematica = float(input('digite a nota'))
+nota_portugues = float(input('digite a nota'))
+nota_ingles = float(input('digite a nota'))
+nota_ed_fisica = float(input('digite a nota'))
+
+soma = nota_ed_fisica +nota_ed_fisica + nota_portugues + nota_matematica
+media = soma/4
+#concatenar == juntas 
+print('média do aluno' ,nome)
+print('Media' , media)
+situação = media >= 7
+print('aprovado' , situação)
